@@ -1,0 +1,196 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.testa{
+    width: 100%;
+    min-height: 92vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.062)) 
+    ,url(../image/pexels-august-de-richelieu-4427630.jpg);
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    
+  
+}
+.testa-content{
+    width: 40%;
+    min-height: 40vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin: 10px;
+
+}
+.testa-content h2{
+    color: #dc143d;
+    font-size: 5vmax;
+    font-weight: 900;
+    text-shadow: 1px 1px #ccc;
+
+}
+@media (max-width: 500px) {.testa-content h2{
+    text-align: center;
+    font-size: 200%;
+}}
+@media (max-width: 250px) {.testa-content h2{
+    text-align: center;
+    font-size: 15px;
+}}
+.testa-content p{
+    color: #fff;
+    font-weight: 900;
+    font-size: 15px;
+    width: 70%;
+}
+.info{
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #1155bb;
+    border: 1px solid #1155bb;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.testa-content a:hover{
+    background-color: transparent;
+    color: #1155bb;
+
+    border: 1px solid #fff;
+}
+section{
+    background-image: linear-gradient(#cccccc41, #cccccc23);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+section h1{
+    text-align: center;
+    margin: 20px;
+    font-weight: 900;
+}
+.cursos{
+    
+ width: 90%;
+ display: grid;
+ grid-template-columns: 250px 250px 250px 250px; 
+ grid-template-rows: 400px 400px; 
+ justify-items: center;
+ justify-content: center;
+ gap: 40px;
+ 
+}
+@media (max-width: 1100px){.cursos{
+    
+    width: 90%;
+    display: grid;
+    grid-template-columns: 250px 250px  250px; 
+    grid-template-rows: 400px 400px 400px  ; 
+    justify-items: center;
+    justify-content: center;
+    gap: 25px;
+    
+   }}
+   @media (max-width: 900px){.cursos{
+    
+    width: 90%;
+    display: grid;
+    grid-template-columns: 250px 250px  ; 
+    grid-template-rows: 400px 400px 400px 400px ; 
+    justify-items: center;
+    justify-content: center;
+    gap: 25px;
+    
+   }}
+
+
+
+@media (max-width: 600px) {.cursos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}}
+
+
+.item1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; 
+    max-width: 250px;
+    height: 100%;
+    padding-top: 10px;
+    box-shadow: 0 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+
+img {
+    max-width: 170px;
+    border-radius: 5px;
+}
+
+
+
+
+.item1:hover {
+    transition: .2s;
+    transform: scale(1.2);
+    background-color: #fff;
+     border-radius: 30px;
+    padding: 5px;
+}
+
+
+.item1 p{
+    max-width: 200px;
+    overflow: auto;
+    height: 100%;
+    text-align: center;
+    padding: 7px;
+    font-size: 15px;
+}
+.item1 h3{
+    max-width: 200px ;
+    padding: 7px;
+    font-weight: 900;
+    text-align: center;
+
+}
+
+button{
+ 
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #dc143d;
+    border: 1px solid #dc143d;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #b0e1f0;
+    margin-top: 20px;
+    text-align: center;
+}   
+
