@@ -59,10 +59,9 @@
     padding: 10px;
     border-radius: 5px;
 }
-.testa-content a:hover{
+.info:hover{
     background-color: transparent;
     color: #1155bb;
-
     border: 1px solid #fff;
 }
 section{
